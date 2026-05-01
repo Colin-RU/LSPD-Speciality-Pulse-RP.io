@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LSPD Specialization Training Manual</title>
+  <meta name="description" content="Мануал обучения специализациям LSPD для RP проекта GTA 5: наземная техника, воздушный юнит, водный юнит и критерии допуска." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Specialization Manual">
+      <img src="assets/logo.webp" alt="LSPD" />
+      <span>
+        <small>Operations Training</small>
+        Specialization Manual
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="Основная навигация">
+      <a href="#admission">Допуск</a>
+      <a href="#program">Программа</a>
+      <a href="#fleet">Техника</a>
+      <a href="#specializations">Специализации</a>
+      <a href="#surveys">Опросы</a>
+      <a href="#exam">Экзамен</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <video class="hero-media" autoplay muted loop playsinline poster="assets/hero-training.png">
+        <source src="assets/hero-video.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-shade"></div>
+      <div class="hero-inner">
+        <div class="hero-copy reveal">
+          <p class="kicker">AIM HIGH / TRAIN HARD / PATROL SMART</p>
+          <h1>LSPD
+            Speciality
+          By SGT Colin</h1>
+          <p>
+            Стандарт допуска, обучения и проверки сотрудников перед использованием
+            специализированной техники.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#admission">Проверить допуск</a>
+            <a class="button secondary" href="#specializations">Открыть направления</a>
+          </div>
+          <div class="video-control-panel" aria-label="Управление видео">
+            <button class="icon-button" type="button" data-video-toggle aria-label="Пауза">Pause</button>
+            <button class="icon-button" type="button" data-audio-toggle aria-label="Включить звук">Sound</button>
+            <label class="volume-control">
+              <span>Громкость</span>
+              <input type="range" data-volume min="0" max="1" step="0.01" value="0.45" />
+            </label>
+          </div>
+        </div>
+        <aside class="readiness-panel reveal">
+          <span class="panel-label">Основной критерий</span>
+          <strong>POII</strong>
+          <p>К обучению допускается сотрудник со званием Police Officer II или выше.</p>
+          <dl>
+            <div><dt>3</dt><dd>активных направления</dd></div>
+            <div><dt>2</dt><dd>этапа аттестации</dd></div>
+            <div><dt>0</dt><dd>активных взысканий</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="admission">
+      <div class="section-head reveal">
+        <p class="eyebrow">Admission Standard</p>
+        <h2>Критерии допуска к обучению</h2>
+        <p>Инструктор допускает кандидата только после проверки базовых требований и готовности к ответственному использованию техники.</p>
+      </div>
+      <div class="requirement-grid">
+        <article class="requirement-card required reveal">
+          <span>01</span>
+          <h3>Звание POII</h3>
+          <p>Обязательный критерий для любой специализации. Сотрудник ниже POII не проходит к теории и практике.</p>
+        </article>
+        <article class="requirement-card reveal">
+          <span>02</span>
+          <h3>Дисциплина</h3>
+          <p>Нет активных взысканий, жалоб за PG/NonRP Driving, самовольного использования техники или нарушения субординации.</p>
+        </article>
+        <article class="requirement-card reveal">
+          <span>03</span>
+          <h3>База LEO</h3>
+          <p>Знание устава, радиоэтикета, правил погони, применения силы, безопасной остановки транспорта и работы в парном патруле.</p>
+        </article>
+        <article class="requirement-card reveal">
+          <span>04</span>
+          <h3>Решение инструктора</h3>
+          <p>Инструктор может отказать или перенести обучение, если кандидат не готов по поведению, навыкам или активности.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-steel" id="program">
+      <div class="section-head reveal">
+        <p class="eyebrow">Training Flow</p>
+        <h2>Порядок обучения</h2>
+        <p>Схема подходит для наземного, воздушного и водного направления. Конкретные упражнения меняются под специализацию.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <span>Step 1</span>
+          <h3>Заявка и проверка допуска</h3>
+          <p>Кандидат подает запрос инструктору. Проверяются звание POII, дисциплина, активность и базовые знания департамента.</p>
+        </article>
+        <article class="timeline-item reveal">
+          <span>Step 2</span>
+          <h3>Теория</h3>
+          <p>Разбор правил использования техники, зон ответственности, радиообмена, запретов и порядка получения разрешения руководства.</p>
+        </article>
+        <article class="timeline-item reveal">
+          <span>Step 3</span>
+          <h3>Практика</h3>
+          <p>Маршрут, маневры, остановки, взаимодействие с напарником, безопасное завершение ситуации и доклад в рацию.</p>
+        </article>
+        <article class="timeline-item reveal">
+          <span>Step 4</span>
+          <h3>Аттестация</h3>
+          <p>Тест по правилам и практический сценарий. После успешной сдачи сотрудник получает отметку о квалификации.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="fleet">
+      <div class="section-head reveal">
+        <p class="eyebrow">Ground Fleet</p>
+        <h2>Парк наземной техники</h2>
+        <p>Список разделен по уровню допуска, чтобы стажеры и квалифицированные сотрудники не путали доступные машины.</p>
+      </div>
+      <div class="fleet-grid">
+        <article class="fleet-card danger reveal">
+          <h3>Запрещено без разрешения или квалификации</h3>
+          <ul>
+            <li>Vapid Dominator GT</li>
+            <li>Ubermacht Kandra (Bike)</li>
+            <li>Invetero Coquette D9</li>
+            <li>Declasse Vigero ZX</li>
+            <li>Buckingham Conada</li>
+            <li>Declasse Alamo 2700LX</li>
+            <li>Vapid Aleutan</li>
+            <li>Brute Regent</li>
+          </ul>
+        </article>
+        <article class="fleet-card warning reveal">
+          <h3>Временное ограничение для всех</h3>
+          <ul>
+            <li>Dendreary Landstalker</li>
+          </ul>
+          <p>Использование только после отдельного разрешения руководства или снятия временного ограничения.</p>
+        </article>
+        <article class="fleet-card approved reveal">
+          <h3>Рекомендовано для патруля</h3>
+          <ul>
+            <li>Vapid Scout</li>
+            <li>Vapid Tavros</li>
+            <li>Bravado Dorado</li>
+            <li>Declasse Merit PPV</li>
+          </ul>
+        </article>
+        <article class="fleet-card trainee reveal">
+          <h3>Разрешено на стажировке</h3>
+          <ul>
+            <li>Vapid Monarch</li>
+          </ul>
+          <p>Используется для базового контроля ТС, парковки, маневров и безопасного патруля.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-steel" id="specializations">
+      <div class="section-head reveal">
+        <p class="eyebrow">Specialty Careers</p>
+        <h2>Специализации и позывные</h2>
+        <p>Каждое направление получает отдельный допуск, отдельную практику и собственный формат радиообмена.</p>
+      </div>
+      <div class="specialization-grid">
+        <article class="spec-card reveal">
+          <img src="assets/division-ground-v2.png" alt="Наземная специализация" />
+          <div class="spec-body">
+            <p class="spec-code">TG - TANGO / MR - MARY</p>
+            <h3>Наземная техника</h3>
+            <p>Подготовка к управлению патрульными, скоростными и мото-юнитами с акцентом на pursuit policy и безопасность города.</p>
+            <ul>
+              <li>Допуск: POII, теория, практический маршрут.</li>
+              <li>Проверка: контроль скорости, перестроения, PIT только по разрешению.</li>
+              <li>Запрет: брать ограниченную технику без квалификации.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="spec-card reveal">
+          <img src="assets/division-air-v2.png" alt="Воздушная специализация" />
+          <div class="spec-body">
+            <p class="spec-code">NV - NOVA</p>
+            <h3>Воздушный юнит</h3>
+            <p>Квалификация на вертолет Maverick для наблюдения, координации погони и поиска подозреваемых с воздуха.</p>
+            <ul>
+              <li>Техника: Maverick.</li>
+              <li>Проверка: взлет, посадка, зависание, сопровождение цели.</li>
+              <li>Запрет: посадка в опасной зоне без команды руководителя сцены.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="spec-card reveal">
+          <img src="assets/division-water-v2.png" alt="Водная специализация" />
+          <div class="spec-body">
+            <p class="spec-code">MK - MIKE</p>
+            <h3>Водный юнит</h3>
+            <p>Квалификация на патрульный катер для контроля акватории, поиска, сопровождения и эвакуации на воде.</p>
+            <ul>
+              <li>Техника: патрульный катер.</li>
+              <li>Проверка: швартовка, разворот, перехват, безопасная посадка.</li>
+              <li>Запрет: тараны и рискованные маневры рядом с гражданскими судами.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <div class="callsign-card reveal">
+        <h3>Дополнительные позывные для структуры</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Позывной</th>
+              <th>Назначение</th>
+              <th>Статус в мануале</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>DV - DAVID</td><td>Группа S.W.A.T.</td><td>Можно вынести в отдельную спецподготовку</td></tr>
+            <tr><td>UN - UNION</td><td>K-9 юнит</td><td>Функционал дописывается позже</td></tr>
+            <tr><td>MR - MARY</td><td>Мото юнит</td><td>Входит в наземное направление</td></tr>
+            <tr><td>TG - TANGO</td><td>High speed unit</td><td>Входит в наземное направление</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section" id="surveys">
+      <div class="section-head reveal">
+        <p class="eyebrow">Qualification Forms</p>
+        <h2>Бланки опросов по специализациям</h2>
+        <p>Готовые формы для инструктора: проверка допуска, теория, практическая часть и итоговое решение. Блоки не используют 10-коды и не отправляют данные наружу.</p>
+      </div>
+      <div class="survey-grid">
+        <form class="survey-card reveal" data-survey-title="Наземная техника">
+          <div class="survey-topline">
+            <span>TG / MR</span>
+            <h3>Наземная техника</h3>
+          </div>
+          <div class="survey-section">
+            <h4>Данные проверки</h4>
+            <div class="survey-fields">
+              <label>Имя и фамилия сотрудника<input name="candidate" type="text" placeholder="Например: John Carter" /></label>
+              <label>Звание и позывной<input name="rank" type="text" placeholder="POII / 1-ADAM-12" /></label>
+              <label>Инструктор<input name="instructor" type="text" placeholder="Имя инструктора" /></label>
+              <label>Дата проверки<input name="date" type="date" /></label>
+            </div>
+          </div>
+          <fieldset class="survey-section">
+            <legend>Допуск</legend>
+            <label><input name="admission" type="checkbox" /> Звание POII или выше подтверждено</label>
+            <label><input name="admission" type="checkbox" /> Нет активных взысканий</label>
+            <label><input name="admission" type="checkbox" /> Правила техники и субординации объяснены</label>
+          </fieldset>
+          <div class="survey-section">
+            <h4>Теория: 5 основных вопросов</h4>
+            <div class="question-grid">
+              <label><span>1. Когда можно брать ограниченную технику?</span><textarea name="q1" rows="3"></textarea></label>
+              <label><span>2. Как сотрудник действует при опасной погоне?</span><textarea name="q2" rows="3"></textarea></label>
+              <label><span>3. Когда разрешен PIT или другой контактный маневр?</span><textarea name="q3" rows="3"></textarea></label>
+              <label><span>4. Как правильно запросить разрешение на спецтехнику?</span><textarea name="q4" rows="3"></textarea></label>
+              <label><span>5. Что запрещено при движении через плотный трафик?</span><textarea name="q5" rows="3"></textarea></label>
+            </div>
+          </div>
+          <div class="survey-section">
+            <h4>Практика и итог</h4>
+            <label>Практика: маршрут, контроль скорости, перестроения, безопасное завершение<textarea name="practice" rows="4"></textarea></label>
+            <div class="result-row">
+              <label><input name="result-ground" type="radio" value="passed" /> Сдал</label>
+              <label><input name="result-ground" type="radio" value="failed" /> Не сдал</label>
+              <label><input name="result-ground" type="radio" value="retry" /> Пересдача</label>
+            </div>
+            <label>Комментарий инструктора<textarea name="comment" rows="3"></textarea></label>
+          </div>
+          <div class="survey-actions">
+            <button type="button" class="button compact primary" data-submit-survey>Отправить</button>
+            <button type="reset" class="button compact secondary">Очистить</button>
+          </div>
+        </form>
+
+        <form class="survey-card reveal" data-survey-title="Воздушный юнит">
+          <div class="survey-topline">
+            <span>NV</span>
+            <h3>Воздушный юнит</h3>
+          </div>
+          <div class="survey-section">
+            <h4>Данные проверки</h4>
+            <div class="survey-fields">
+              <label>Имя и фамилия сотрудника<input name="candidate" type="text" placeholder="Например: John Carter" /></label>
+              <label>Звание и позывной<input name="rank" type="text" placeholder="POII / NOVA-1" /></label>
+              <label>Инструктор<input name="instructor" type="text" placeholder="Имя инструктора" /></label>
+              <label>Дата проверки<input name="date" type="date" /></label>
+            </div>
+          </div>
+          <fieldset class="survey-section">
+            <legend>Допуск</legend>
+            <label><input name="admission" type="checkbox" /> Звание POII или выше подтверждено</label>
+            <label><input name="admission" type="checkbox" /> Сотрудник понимает запрет опасной посадки</label>
+            <label><input name="admission" type="checkbox" /> Готов работать по команде руководителя сцены</label>
+          </fieldset>
+          <div class="survey-section">
+            <h4>Теория: 5 основных вопросов</h4>
+            <div class="question-grid">
+              <label><span>1. Когда воздушный юнит подключается к сцене?</span><textarea name="q1" rows="3"></textarea></label>
+              <label><span>2. Что запрещено при посадке и зависании?</span><textarea name="q2" rows="3"></textarea></label>
+              <label><span>3. Как держать дистанцию от цели во время сопровождения?</span><textarea name="q3" rows="3"></textarea></label>
+              <label><span>4. Когда пилот обязан прекратить посадку?</span><textarea name="q4" rows="3"></textarea></label>
+              <label><span>5. Как воздушный юнит передает информацию наземным экипажам?</span><textarea name="q5" rows="3"></textarea></label>
+            </div>
+          </div>
+          <div class="survey-section">
+            <h4>Практика и итог</h4>
+            <label>Практика: взлет, посадка, зависание, сопровождение цели<textarea name="practice" rows="4"></textarea></label>
+            <div class="result-row">
+              <label><input name="result-air" type="radio" value="passed" /> Сдал</label>
+              <label><input name="result-air" type="radio" value="failed" /> Не сдал</label>
+              <label><input name="result-air" type="radio" value="retry" /> Пересдача</label>
+            </div>
+            <label>Комментарий инструктора<textarea name="comment" rows="3"></textarea></label>
+          </div>
+          <div class="survey-actions">
+            <button type="button" class="button compact primary" data-submit-survey>Отправить</button>
+            <button type="reset" class="button compact secondary">Очистить</button>
+          </div>
+        </form>
+
+        <form class="survey-card reveal" data-survey-title="Водный юнит">
+          <div class="survey-topline">
+            <span>MK</span>
+            <h3>Водный юнит</h3>
+          </div>
+          <div class="survey-section">
+            <h4>Данные проверки</h4>
+            <div class="survey-fields">
+              <label>Имя и фамилия сотрудника<input name="candidate" type="text" placeholder="Например: John Carter" /></label>
+              <label>Звание и позывной<input name="rank" type="text" placeholder="POII / MIKE-1" /></label>
+              <label>Инструктор<input name="instructor" type="text" placeholder="Имя инструктора" /></label>
+              <label>Дата проверки<input name="date" type="date" /></label>
+            </div>
+          </div>
+          <fieldset class="survey-section">
+            <legend>Допуск</legend>
+            <label><input name="admission" type="checkbox" /> Звание POII или выше подтверждено</label>
+            <label><input name="admission" type="checkbox" /> Понимает риски тарана и маневров возле гражданских судов</label>
+            <label><input name="admission" type="checkbox" /> Готов выполнять команды руководителя сцены</label>
+          </fieldset>
+          <div class="survey-section">
+            <h4>Теория: 5 основных вопросов</h4>
+            <div class="question-grid">
+              <label><span>1. Когда водный юнит нужен на сцене?</span><textarea name="q1" rows="3"></textarea></label>
+              <label><span>2. Какие маневры запрещены рядом с гражданскими?</span><textarea name="q2" rows="3"></textarea></label>
+              <label><span>3. Как безопасно подойти к берегу или причалу?</span><textarea name="q3" rows="3"></textarea></label>
+              <label><span>4. Что делать при потере визуального контакта с целью?</span><textarea name="q4" rows="3"></textarea></label>
+              <label><span>5. Как водный юнит координируется с наземными экипажами?</span><textarea name="q5" rows="3"></textarea></label>
+            </div>
+          </div>
+          <div class="survey-section">
+            <h4>Практика и итог</h4>
+            <label>Практика: швартовка, разворот, перехват, безопасная посадка<textarea name="practice" rows="4"></textarea></label>
+            <div class="result-row">
+              <label><input name="result-water" type="radio" value="passed" /> Сдал</label>
+              <label><input name="result-water" type="radio" value="failed" /> Не сдал</label>
+              <label><input name="result-water" type="radio" value="retry" /> Пересдача</label>
+            </div>
+            <label>Комментарий инструктора<textarea name="comment" rows="3"></textarea></label>
+          </div>
+          <div class="survey-actions">
+            <button type="button" class="button compact primary" data-submit-survey>Отправить</button>
+            <button type="reset" class="button compact secondary">Очистить</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="exam">
+      <div class="section-head reveal">
+        <p class="eyebrow">Certification</p>
+        <h2>Критерии сдачи и отстранения</h2>
+        <p>Итоговая оценка должна быть понятной кандидату и одинаковой для всех инструкторов.</p>
+      </div>
+      <div class="exam-layout">
+        <article class="exam-card reveal">
+          <h3>Сотрудник сдает обучение, если</h3>
+          <ul>
+            <li>Подтвердил звание POII или выше.</li>
+            <li>Ответил минимум на 70% теоретических вопросов.</li>
+            <li>Безопасно выполнил практический маршрут.</li>
+            <li>Корректно использовал позывной и радиообмен.</li>
+            <li>Не нарушил запреты по технике и субординации.</li>
+          </ul>
+        </article>
+        <article class="exam-card reveal">
+          <h3>Сотрудник не допускается или отстраняется, если</h3>
+          <ul>
+            <li>Не имеет звания POII.</li>
+            <li>Самовольно берет ограниченную технику.</li>
+            <li>Создает угрозу жизни гражданских или сотрудников.</li>
+            <li>Игнорирует команды инструктора или руководства сцены.</li>
+            <li>Использует специализацию для личного преимущества вне RP-задачи.</li>
+          </ul>
+        </article>
+      </div>
+      <article class="placeholder-block reveal">
+        <span>Functional Scope</span>
+        <h3>Функционал специализаций</h3>
+        <p>Этот блок оставлен под будущие правила: выдача ролей, отметки в roster, Discord-права, срок пересдачи, формат заявки и обязанности инструкторов.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>RP training document / GTA 5 police specializations</p>
+    <a href="#top">Наверх</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
